@@ -2,7 +2,6 @@
 cryptography
 endesive
 mock
-odoo_test_helper
 openpyxl
 py3o.formats
 py3o.template
