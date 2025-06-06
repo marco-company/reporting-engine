@@ -25,7 +25,7 @@ addon | version | maintainers | summary
 [bi_sql_editor](bi_sql_editor/) | 16.0.2.0.2 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | BI Views builder, based on Materialized or Normal SQL Views
 [bi_view_editor](bi_view_editor/) | 16.0.1.1.0 |  | Graphical BI views builder for Odoo
 [bi_view_editor_spreadsheet_dashboard](bi_view_editor_spreadsheet_dashboard/) | 16.0.1.0.0 |  | Glue module for BI View Editor and Spreadsheet Dashboard
-[report_async](report_async/) | 16.0.1.0.1 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Central place to run reports live or async
+[report_async](report_async/) | 16.0.1.1.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Central place to run reports live or async
 [report_company_details_translatable](report_company_details_translatable/) | 16.0.1.0.0 |  | Report Company Details Translatable
 [report_context](report_context/) | 16.0.1.0.0 |  | Adding context to reports
 [report_csv](report_csv/) | 16.0.2.1.1 |  | Base module to create csv report
