@@ -43,7 +43,7 @@ addon | version | maintainers | summary
 [report_qweb_pdf_cover](report_qweb_pdf_cover/) | 16.0.1.0.0 |  | Add front and back covers to your QWeb PDF reports
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 16.0.1.0.1 |  | Add watermarks to your QWEB PDF reports
 [report_qweb_signer](report_qweb_signer/) | 16.0.1.0.3 |  | Sign Qweb PDFs usign a PKCS#12 certificate
-[report_substitute](report_substitute/) | 16.0.1.1.0 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | This module allows to create substitution rules for report actions.
+[report_substitute](report_substitute/) | 16.0.1.1.1 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | This module allows to create substitution rules for report actions.
 [report_text_format_option](report_text_format_option/) | 16.0.1.0.0 |  | Report Text Format Option
 [report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 16.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
 [report_xlsx](report_xlsx/) | 16.0.2.0.2 |  | Base module to create xlsx report
