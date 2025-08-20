@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2025-08-20 02:23+0000\n"
+"PO-Revision-Date: 2025-08-20 04:15+0000\n"
 "Last-Translator: \"Toshikimi Shigenobu (Quartile)\" <nobu@quartile.co>\n"
 "Language-Team: none\n"
 "Language: ja\n"
@@ -24,6 +24,10 @@ msgid ""
 "{'widget': 'monetary'}\n"
 "{'widget': 'contact', 'fields': ['name', 'phone']}"
 msgstr ""
+"フィールドの書式設定オプションを指定するための辞書型の文字列。例:\n"
+"{'widget': 'date'}\n"
+"{'widget': 'monetary'}\\\n"
+"{'widget': 'contact', 'fields': ['name', 'phone']}"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__company_id
@@ -53,7 +57,7 @@ msgstr "通貨フィールド"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__digits
 msgid "Digits"
-msgstr "桁数"
+msgstr "小数点桁数"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__display_name
@@ -73,12 +77,12 @@ msgstr "フィールド名"
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__field_type
 msgid "Field Type"
-msgstr ""
+msgstr "フィールドタイプ"
 
 #. module: report_qweb_field_option
 #: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
 msgid "Group By"
-msgstr ""
+msgstr "グループ化"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__id
@@ -93,21 +97,23 @@ msgid ""
 "Invalid string for the Options field: %(field_options)s.\n"
 "Error: %(error)s"
 msgstr ""
+"オプションフィールドに無効な文字列があります: %(field_options)s\n"
+"エラー: %(error)s"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "最終編集日"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "最終更新者"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "最終更新日"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__res_model_id
@@ -130,7 +136,7 @@ msgstr "オプション"
 #: code:addons/report_qweb_field_option/models/qweb_field_options.py:0
 #, python-format
 msgid "Options must be a dictionary, but got %s"
-msgstr ""
+msgstr "オプションは辞書形式である必要があります。 %s"
 
 #. module: report_qweb_field_option
 #: model:ir.model,name:report_qweb_field_option.model_ir_qweb
@@ -147,7 +153,7 @@ msgstr "Qwebフィールドオプション"
 #. module: report_qweb_field_option
 #: model_terms:ir.ui.view,arch_db:report_qweb_field_option.view_qweb_field_options_searh
 msgid "Qweb Field Options Search"
-msgstr ""
+msgstr "Qweb Field Options Search"
 
 #. module: report_qweb_field_option
 #: model:ir.model.fields,field_description:report_qweb_field_option.field_qweb_field_options__uom_id
