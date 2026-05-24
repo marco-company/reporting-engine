@@ -1,4 +1,7 @@
 
+[![Support the OCA](https://odoo-community.org/readme-banner-image)](https://odoo-community.org/get-involved?utm_source=repo-readme)
+
+# reporting-engine
 [![Runboat](https://img.shields.io/badge/runboat-Try%20me-875A7B.png)](https://runboat.odoo-community.org/builds?repo=OCA/reporting-engine&target_branch=16.0)
 [![Pre-commit Status](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml/badge.svg?branch=16.0)](https://github.com/OCA/reporting-engine/actions/workflows/pre-commit.yml?query=branch%3A16.0)
 [![Build Status](https://github.com/OCA/reporting-engine/actions/workflows/test.yml/badge.svg?branch=16.0)](https://github.com/OCA/reporting-engine/actions/workflows/test.yml?query=branch%3A16.0)
@@ -6,8 +9,6 @@
 [![Translation Status](https://translation.odoo-community.org/widgets/reporting-engine-16-0/-/svg-badge.svg)](https://translation.odoo-community.org/engage/reporting-engine-16-0/?utm_source=widget)
 
 <!-- /!\ do not modify above this line -->
-
-# reporting-engine
 
 TODO: add repo description.
 
@@ -30,9 +31,12 @@ addon | version | maintainers | summary
 [report_context](report_context/) | 16.0.1.0.0 |  | Adding context to reports
 [report_csv](report_csv/) | 16.0.2.1.1 |  | Base module to create csv report
 [report_display_name_in_footer](report_display_name_in_footer/) | 16.0.1.1.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Show document name in report footer
+[report_docx](report_docx/) | 16.0.1.0.0 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Create report templates in DOCX and receive DOCX files
+[report_footer_html](report_footer_html/) | 16.0.1.0.0 | <a href='https://github.com/Shide'><img src='https://github.com/Shide.png' width='32' height='32' style='border-radius:50%;' alt='Shide'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Show HTML content in desired Footer Reports
 [report_generate_helper](report_generate_helper/) | 16.0.1.0.0 |  | Helper to easily generate report
 [report_label](report_label/) | 16.0.1.0.1 | <a href='https://github.com/ivantodorovich'><img src='https://github.com/ivantodorovich.png' width='32' height='32' style='border-radius:50%;' alt='ivantodorovich'/></a> | Print configurable self-adhesive labels reports
 [report_paperformat_company_dependent](report_paperformat_company_dependent/) | 16.0.1.0.0 |  | Report Paperformat Company Dependent
+[report_partner_address](report_partner_address/) | 16.0.1.0.0 | <a href='https://github.com/yostashiro'><img src='https://github.com/yostashiro.png' width='32' height='32' style='border-radius:50%;' alt='yostashiro'/></a> <a href='https://github.com/aungkokolin1997'><img src='https://github.com/aungkokolin1997.png' width='32' height='32' style='border-radius:50%;' alt='aungkokolin1997'/></a> | Translatable partner address details for reports and portal
 [report_py3o](report_py3o/) | 16.0.1.0.6 |  | Reporting engine based on Libreoffice (ODT -> ODT, ODT -> PDF, ODT -> DOC, ODT -> DOCX, ODS -> ODS, etc.)
 [report_py3o_fusion_server](report_py3o_fusion_server/) | 16.0.1.0.0 |  | Let the fusion server handle format conversion.
 [report_qr](report_qr/) | 16.0.1.0.0 |  | Web QR Manager
@@ -43,13 +47,13 @@ addon | version | maintainers | summary
 [report_qweb_parameter](report_qweb_parameter/) | 16.0.1.0.1 |  | Add new parameters for qweb templates in order to reduce field length and check minimal length
 [report_qweb_pdf_cover](report_qweb_pdf_cover/) | 16.0.1.0.0 |  | Add front and back covers to your QWeb PDF reports
 [report_qweb_pdf_watermark](report_qweb_pdf_watermark/) | 16.0.1.0.1 |  | Add watermarks to your QWEB PDF reports
-[report_qweb_signer](report_qweb_signer/) | 16.0.1.0.4 |  | Sign Qweb PDFs usign a PKCS#12 certificate
+[report_qweb_signer](report_qweb_signer/) | 16.0.1.0.5 |  | Sign Qweb PDFs usign a PKCS#12 certificate
 [report_substitute](report_substitute/) | 16.0.1.1.1 | <a href='https://github.com/sbejaoui'><img src='https://github.com/sbejaoui.png' width='32' height='32' style='border-radius:50%;' alt='sbejaoui'/></a> | This module allows to create substitution rules for report actions.
 [report_text_format_option](report_text_format_option/) | 16.0.1.0.0 |  | Report Text Format Option
 [report_wkhtmltopdf_param](report_wkhtmltopdf_param/) | 16.0.1.0.0 |  | Add new parameters for a paper format to be used by wkhtmltopdf command as arguments.
 [report_xlsx](report_xlsx/) | 16.0.2.0.2 |  | Base module to create xlsx report
 [report_xlsx_helper](report_xlsx_helper/) | 16.0.1.0.0 |  | Report xlsx helpers
-[report_xml](report_xml/) | 16.0.1.1.2 |  | Allow to generate XML reports
+[report_xml](report_xml/) | 16.0.1.1.3 |  | Allow to generate XML reports
 [sql_export](sql_export/) | 16.0.2.2.1 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | Export data in csv file with SQL requests
 [sql_export_delta](sql_export_delta/) | 16.0.1.0.0 | <a href='https://github.com/hbrunn'><img src='https://github.com/hbrunn.png' width='32' height='32' style='border-radius:50%;' alt='hbrunn'/></a> | Support exporting only the changes from last export
 [sql_export_excel](sql_export_excel/) | 16.0.1.0.1 |  | Allow to export a sql query to an excel file.
